@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "upload_artifact.py", line 68, in <module>
+    go(args)
+  File "upload_artifact.py", line 31, in go
+    artifact = wandb.Artifact(
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 169, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: "zen.txt file"

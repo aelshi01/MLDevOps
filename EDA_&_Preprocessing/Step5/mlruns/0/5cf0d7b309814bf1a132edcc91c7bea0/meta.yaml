@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/5cf0d7b309814bf1a132edcc91c7bea0/artifacts
+end_time: 1677126601557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5cf0d7b309814bf1a132edcc91c7bea0
+run_name: indecisive-loon-504
+run_uuid: 5cf0d7b309814bf1a132edcc91c7bea0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677126598558
+status: 4
+tags: []
+user_id: adamelshimi

@@ -1,0 +1,33 @@
+2023-02-10 09:27:16,724 Getting artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project adames88/exercise_1 does not contain artifact: "zen_of_python:v1"
+Traceback (most recent call last):
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 949, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 4343, in __init__
+    self._load()
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 5072, in _load
+    raise ValueError(
+ValueError: Project adames88/exercise_1 does not contain artifact: "zen_of_python:v1"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "use_artifact.py", line 44, in <module>
+    go(args)
+  File "use_artifact.py", line 21, in go
+    artifact = run.use_artifact(args.artifact_name)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 333, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2617, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 64, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 949, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 4343, in __init__
+    self._load()
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public.py", line 5072, in _load
+    raise ValueError(
+wandb.errors.CommError: Project adames88/exercise_1 does not contain artifact: "zen_of_python:v1"

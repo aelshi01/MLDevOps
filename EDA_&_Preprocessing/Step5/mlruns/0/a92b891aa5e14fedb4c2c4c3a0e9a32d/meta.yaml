@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/a92b891aa5e14fedb4c2c4c3a0e9a32d/artifacts
+end_time: 1677127406878
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a92b891aa5e14fedb4c2c4c3a0e9a32d
+run_name: unleashed-sow-809
+run_uuid: a92b891aa5e14fedb4c2c4c3a0e9a32d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677127404758
+status: 4
+tags: []
+user_id: adamelshimi

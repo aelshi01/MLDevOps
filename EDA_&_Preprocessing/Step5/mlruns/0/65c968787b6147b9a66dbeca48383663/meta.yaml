@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/65c968787b6147b9a66dbeca48383663/artifacts
+end_time: 1677039292865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65c968787b6147b9a66dbeca48383663
+run_name: overjoyed-dog-131
+run_uuid: 65c968787b6147b9a66dbeca48383663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677039290863
+status: 4
+tags: []
+user_id: adamelshimi

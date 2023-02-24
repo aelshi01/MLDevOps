@@ -1,0 +1,32 @@
+name: download_data
+conda_env: conda.yml
+
+
+entry points:
+	main:	
+	  parameters:
+		file_url: 
+		  description: url file to download data 
+		  type: uri
+
+		artifact_name: 
+		  description: name of the file that will be uploaded 
+		  type: str
+
+
+		artifact_type: 
+		  description: type of the file being downloaded 
+		  type: str
+		  default: raw_data
+
+
+		artifact_description: 
+		  description: description of the artifact 
+		  type: str
+
+	  command: >-
+
+		python download_data.py  --file_url {file_url} \
+       					 --artifact_name iris {artifact_name} \
+       					 --artifact_type {artifact_type} \
+       					 --artifact_description {artifact_description}

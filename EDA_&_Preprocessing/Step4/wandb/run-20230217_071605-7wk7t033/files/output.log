@@ -1,0 +1,56 @@
+Requirement already satisfied: ydata-profiling in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (4.0.0)
+Requirement already satisfied: pandas!=1.4.0,<1.6,>1.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (1.5.3)
+Requirement already satisfied: typeguard<2.14,>=2.13.2 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (2.13.3)
+Requirement already satisfied: numpy<1.24,>=1.16.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (1.23.5)
+Requirement already satisfied: PyYAML<6.1,>=5.0.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (6.0)
+Requirement already satisfied: requests<2.29,>=2.24.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (2.28.2)
+Requirement already satisfied: phik<0.13,>=0.11.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (0.12.3)
+Requirement already satisfied: matplotlib<3.7,>=3.2 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (3.6.3)
+Requirement already satisfied: scipy<1.10,>=1.4.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (1.9.3)
+Requirement already satisfied: statsmodels<0.14,>=0.13.2 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (0.13.5)
+Requirement already satisfied: tqdm<4.65,>=4.48.2 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (4.64.1)
+Requirement already satisfied: pydantic<1.11,>=1.8.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (1.10.5)
+Requirement already satisfied: seaborn<0.13,>=0.10.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (0.12.2)
+Requirement already satisfied: multimethod<1.10,>=1.4 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (1.9.1)
+Requirement already satisfied: visions[type_image_path]==0.7.5 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (0.7.5)
+Requirement already satisfied: htmlmin==0.1.12 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (0.1.12)
+Requirement already satisfied: jinja2<3.2,>=2.11.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from ydata-profiling) (3.1.2)
+Requirement already satisfied: tangled-up-in-unicode>=0.0.4 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from visions[type_image_path]==0.7.5->ydata-profiling) (0.2.0)
+Requirement already satisfied: networkx>=2.4 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from visions[type_image_path]==0.7.5->ydata-profiling) (3.0)
+Requirement already satisfied: attrs>=19.3.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from visions[type_image_path]==0.7.5->ydata-profiling) (22.1.0)
+Requirement already satisfied: Pillow in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from visions[type_image_path]==0.7.5->ydata-profiling) (9.3.0)
+Requirement already satisfied: imagehash in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from visions[type_image_path]==0.7.5->ydata-profiling) (4.3.1)
+Requirement already satisfied: MarkupSafe>=2.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from jinja2<3.2,>=2.11.1->ydata-profiling) (2.1.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (1.4.4)
+Requirement already satisfied: cycler>=0.10 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (0.11.0)
+Requirement already satisfied: packaging>=20.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (22.0)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (2.8.2)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (1.0.5)
+Requirement already satisfied: pyparsing>=2.2.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (3.0.9)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->ydata-profiling) (4.25.0)
+Requirement already satisfied: pytz>=2020.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from pandas!=1.4.0,<1.6,>1.1->ydata-profiling) (2022.7)
+Requirement already satisfied: joblib>=0.14.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from phik<0.13,>=0.11.1->ydata-profiling) (1.1.1)
+Requirement already satisfied: typing-extensions>=4.2.0 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from pydantic<1.11,>=1.8.1->ydata-profiling) (4.4.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->ydata-profiling) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->ydata-profiling) (2022.12.7)
+Requirement already satisfied: idna<4,>=2.5 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->ydata-profiling) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->ydata-profiling) (1.26.14)
+Requirement already satisfied: patsy>=0.5.2 in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from statsmodels<0.14,>=0.13.2->ydata-profiling) (0.5.3)
+Requirement already satisfied: six in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from patsy>=0.5.2->statsmodels<0.14,>=0.13.2->ydata-profiling) (1.16.0)
+Requirement already satisfied: PyWavelets in /Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages (from imagehash->visions[type_image_path]==0.7.5->ydata-profiling) (1.4.1)
+Note: you may need to restart the kernel to use updated packages.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/logging/__init__.py", line 1089, in emit
+    self.flush()
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/logging/__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/adamelshimi/opt/anaconda3/envs/udacity/lib/python3.8/site-packages/ipykernel/parentpoller.py", line 35, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'

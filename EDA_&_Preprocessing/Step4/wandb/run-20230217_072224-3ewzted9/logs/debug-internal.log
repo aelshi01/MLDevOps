@@ -1,0 +1,182 @@
+2023-02-17 07:22:24,930 INFO    StreamThr :2013 [internal.py:wandb_internal():87] W&B internal server running at pid: 2013, started at: 2023-02-17 07:22:24.929448
+2023-02-17 07:22:24,931 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: status
+2023-02-17 07:22:24,935 INFO    WriterThread:2013 [datastore.py:open_for_write():85] open: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/run-3ewzted9.wandb
+2023-02-17 07:22:24,935 DEBUG   SenderThread:2013 [sender.py:send():334] send: header
+2023-02-17 07:22:24,936 DEBUG   SenderThread:2013 [sender.py:send():334] send: run
+2023-02-17 07:22:25,439 INFO    SenderThread:2013 [dir_watcher.py:__init__():216] watching files in: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files
+2023-02-17 07:22:25,439 INFO    SenderThread:2013 [sender.py:_start_run_threads():1065] run started: 3ewzted9 with start time 1676614944.930852
+2023-02-17 07:22:25,439 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: summary_record
+2023-02-17 07:22:25,440 INFO    SenderThread:2013 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-17 07:22:25,441 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: check_version
+2023-02-17 07:22:25,441 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: check_version
+2023-02-17 07:22:25,571 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: run_start
+2023-02-17 07:22:25,582 DEBUG   HandlerThread:2013 [system_info.py:__init__():31] System info init
+2023-02-17 07:22:25,583 DEBUG   HandlerThread:2013 [system_info.py:__init__():46] System info init done
+2023-02-17 07:22:25,584 INFO    HandlerThread:2013 [system_monitor.py:start():151] Starting system monitor
+2023-02-17 07:22:25,584 INFO    SystemMonitor:2013 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-17 07:22:25,584 INFO    HandlerThread:2013 [system_monitor.py:probe():172] Collecting system info
+2023-02-17 07:22:25,585 INFO    SystemMonitor:2013 [interfaces.py:start():168] Started cpu
+2023-02-17 07:22:25,585 DEBUG   HandlerThread:2013 [system_info.py:probe():195] Probing system
+2023-02-17 07:22:25,585 DEBUG   HandlerThread:2013 [system_info.py:probe():241] Probing system done
+2023-02-17 07:22:25,585 DEBUG   HandlerThread:2013 [system_monitor.py:probe():181] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.16', 'heartbeatAt': '2023-02-17T06:22:25.585505', 'startedAt': '2023-02-17T06:22:24.914328', 'docker': None, 'cuda': None, 'args': ('artifact', 'put', '--name', 'exercise_4/genres_mod.parquet', '--type', 'raw_data', '--description', 'A modified version of the songs dataset', 'genres_mod.parquet'), 'state': 'running', 'program': '/Users/adamelshimi/opt/anaconda3/envs/udacity/bin/wandb', 'host': 'Adams-Air.fritz.box', 'username': 'adamelshimi', 'executable': '/Users/adamelshimi/opt/anaconda3/envs/Udacity/bin/python3.8', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 228.27386474609375, 'used': 72.04415893554688}, 'memory': {'total': 8.0}}
+2023-02-17 07:22:25,585 INFO    HandlerThread:2013 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-17 07:22:25,585 INFO    HandlerThread:2013 [system_monitor.py:probe():185] Publishing system info
+2023-02-17 07:22:25,585 DEBUG   HandlerThread:2013 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-17 07:22:25,586 INFO    SystemMonitor:2013 [interfaces.py:start():168] Started disk
+2023-02-17 07:22:25,586 INFO    SystemMonitor:2013 [interfaces.py:start():168] Started memory
+2023-02-17 07:22:25,586 DEBUG   HandlerThread:2013 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-17 07:22:25,586 INFO    SystemMonitor:2013 [interfaces.py:start():168] Started network
+2023-02-17 07:22:25,586 DEBUG   HandlerThread:2013 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-17 07:22:26,447 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/wandb-summary.json
+2023-02-17 07:22:26,447 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/conda-environment.yaml
+2023-02-17 07:22:26,448 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/requirements.txt
+2023-02-17 07:22:28,456 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/conda-environment.yaml
+2023-02-17 07:22:28,462 DEBUG   HandlerThread:2013 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-17 07:22:28,463 INFO    HandlerThread:2013 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-17 07:22:28,465 DEBUG   SenderThread:2013 [sender.py:send():334] send: files
+2023-02-17 07:22:28,465 INFO    SenderThread:2013 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-02-17 07:22:28,469 DEBUG   SenderThread:2013 [sender.py:send():334] send: telemetry
+2023-02-17 07:22:28,469 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-17 07:22:28,469 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: stop_status
+2023-02-17 07:22:29,190 INFO    Thread-16 :2013 [upload_job.py:push():143] Uploaded file /var/folders/5m/dzm1x6y5491b1zvjdds3hs_00000gn/T/tmpt485wus9wandb/gyuiu16k-wandb-metadata.json
+2023-02-17 07:22:29,463 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/wandb-metadata.json
+2023-02-17 07:22:29,720 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-17 07:22:29,721 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: log_artifact
+2023-02-17 07:22:32,468 INFO    Thread-18 :2013 [upload_job.py:push():101] Uploaded file /Users/adamelshimi/Library/Application Support/wandb/artifacts/staging/tmpcdh6znej
+2023-02-17 07:22:33,597 INFO    SenderThread:2013 [sender.py:send_request_log_artifact():1379] logged artifact genres_mod.parquet - {'id': 'QXJ0aWZhY3Q6MzcxMDczMzY0', 'digest': 'd07cfe0c8bd86971c9f85bce13c85266', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUzMzk1NDEx', 'latestArtifact': None}, 'version': 'latest'}
+2023-02-17 07:22:33,598 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: status_report
+2023-02-17 07:22:34,212 DEBUG   SenderThread:2013 [sender.py:send():334] send: exit
+2023-02-17 07:22:34,213 INFO    SenderThread:2013 [sender.py:send_exit():557] handling exit code: 0
+2023-02-17 07:22:34,213 INFO    SenderThread:2013 [sender.py:send_exit():559] handling runtime: 8
+2023-02-17 07:22:34,215 INFO    SenderThread:2013 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-17 07:22:34,215 INFO    SenderThread:2013 [sender.py:send_exit():565] send defer
+2023-02-17 07:22:34,215 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,216 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-17 07:22:34,216 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,217 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-02-17 07:22:34,217 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 1
+2023-02-17 07:22:34,217 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,217 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-17 07:22:34,218 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,218 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-02-17 07:22:34,218 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 2
+2023-02-17 07:22:34,218 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,218 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-17 07:22:34,218 INFO    HandlerThread:2013 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-17 07:22:34,243 DEBUG   SystemMonitor:2013 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-17 07:22:34,244 DEBUG   SystemMonitor:2013 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-17 07:22:34,244 INFO    HandlerThread:2013 [interfaces.py:finish():175] Joined cpu
+2023-02-17 07:22:34,244 DEBUG   SystemMonitor:2013 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-17 07:22:34,244 INFO    HandlerThread:2013 [interfaces.py:finish():175] Joined disk
+2023-02-17 07:22:34,245 INFO    HandlerThread:2013 [interfaces.py:finish():175] Joined memory
+2023-02-17 07:22:34,245 INFO    HandlerThread:2013 [interfaces.py:finish():175] Joined network
+2023-02-17 07:22:34,246 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,246 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-02-17 07:22:34,246 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 3
+2023-02-17 07:22:34,246 DEBUG   SenderThread:2013 [sender.py:send():334] send: stats
+2023-02-17 07:22:34,247 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,247 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-17 07:22:34,248 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,248 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-02-17 07:22:34,248 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 4
+2023-02-17 07:22:34,248 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,248 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-17 07:22:34,248 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,248 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-02-17 07:22:34,248 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 5
+2023-02-17 07:22:34,248 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,249 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-17 07:22:34,249 DEBUG   SenderThread:2013 [sender.py:send():334] send: summary
+2023-02-17 07:22:34,250 INFO    SenderThread:2013 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-17 07:22:34,250 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,250 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-02-17 07:22:34,250 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 6
+2023-02-17 07:22:34,250 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,250 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-17 07:22:34,251 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,251 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-02-17 07:22:34,256 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: status_report
+2023-02-17 07:22:34,484 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/wandb-summary.json
+2023-02-17 07:22:34,485 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/output.log
+2023-02-17 07:22:34,507 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 7
+2023-02-17 07:22:34,508 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:34,508 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-17 07:22:34,508 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:34,508 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-02-17 07:22:35,218 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-17 07:22:35,490 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/config.yaml
+2023-02-17 07:22:36,219 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 8
+2023-02-17 07:22:36,219 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: poll_exit
+2023-02-17 07:22:36,219 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:36,220 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-17 07:22:36,221 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:36,221 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-02-17 07:22:36,222 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 9
+2023-02-17 07:22:36,223 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:36,223 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-17 07:22:36,223 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:36,223 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-02-17 07:22:36,223 INFO    SenderThread:2013 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-17 07:22:36,224 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-17 07:22:36,494 INFO    Thread-13 :2013 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/output.log
+2023-02-17 07:22:36,496 INFO    SenderThread:2013 [dir_watcher.py:finish():392] scan: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files
+2023-02-17 07:22:36,497 INFO    SenderThread:2013 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/requirements.txt requirements.txt
+2023-02-17 07:22:36,497 INFO    SenderThread:2013 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/output.log output.log
+2023-02-17 07:22:36,498 INFO    SenderThread:2013 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/config.yaml config.yaml
+2023-02-17 07:22:36,503 INFO    SenderThread:2013 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/wandb-summary.json wandb-summary.json
+2023-02-17 07:22:36,511 INFO    SenderThread:2013 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/conda-environment.yaml conda-environment.yaml
+2023-02-17 07:22:36,516 INFO    SenderThread:2013 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/wandb-metadata.json wandb-metadata.json
+2023-02-17 07:22:36,516 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 10
+2023-02-17 07:22:36,516 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: poll_exit
+2023-02-17 07:22:36,519 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:36,519 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-17 07:22:36,520 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:36,520 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-02-17 07:22:36,520 INFO    SenderThread:2013 [file_pusher.py:finish():160] shutting down file pusher
+2023-02-17 07:22:37,230 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-17 07:22:37,231 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: poll_exit
+2023-02-17 07:22:37,388 INFO    Thread-22 :2013 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/wandb-summary.json
+2023-02-17 07:22:37,389 INFO    Thread-20 :2013 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/output.log
+2023-02-17 07:22:37,390 INFO    Thread-19 :2013 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/requirements.txt
+2023-02-17 07:22:37,391 INFO    Thread-23 :2013 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/conda-environment.yaml
+2023-02-17 07:22:37,393 INFO    Thread-21 :2013 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/files/config.yaml
+2023-02-17 07:22:37,599 INFO    Thread-12 :2013 [sender.py:transition_state():585] send defer: 11
+2023-02-17 07:22:37,600 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:37,600 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-17 07:22:37,601 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:37,601 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-02-17 07:22:37,601 INFO    SenderThread:2013 [file_pusher.py:join():165] waiting for file pusher
+2023-02-17 07:22:37,601 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 12
+2023-02-17 07:22:37,601 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:37,602 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-17 07:22:37,602 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:37,602 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-02-17 07:22:37,770 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 13
+2023-02-17 07:22:37,770 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:37,771 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-17 07:22:37,771 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:37,771 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-02-17 07:22:37,772 INFO    SenderThread:2013 [sender.py:transition_state():585] send defer: 14
+2023-02-17 07:22:37,772 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: defer
+2023-02-17 07:22:37,772 DEBUG   SenderThread:2013 [sender.py:send():334] send: final
+2023-02-17 07:22:37,772 INFO    HandlerThread:2013 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-17 07:22:37,772 DEBUG   SenderThread:2013 [sender.py:send():334] send: footer
+2023-02-17 07:22:37,773 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: defer
+2023-02-17 07:22:37,773 INFO    SenderThread:2013 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-02-17 07:22:37,774 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-17 07:22:37,774 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: poll_exit
+2023-02-17 07:22:37,775 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-17 07:22:37,775 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: poll_exit
+2023-02-17 07:22:37,775 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: server_info
+2023-02-17 07:22:37,776 DEBUG   SenderThread:2013 [sender.py:send_request():361] send_request: server_info
+2023-02-17 07:22:37,778 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-17 07:22:37,778 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-17 07:22:37,999 INFO    MainThread:2013 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-02-17 07:22:37,999 INFO    MainThread:2013 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-02-17 07:22:37,999 INFO    MainThread:2013 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-02-17 07:22:38,000 DEBUG   HandlerThread:2013 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-17 07:22:38,001 INFO    HandlerThread:2013 [handler.py:finish():841] shutting down handler
+2023-02-17 07:22:38,781 INFO    WriterThread:2013 [datastore.py:close():299] close: /Users/adamelshimi/Desktop/Desktop - Adam’s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20230217_072224-3ewzted9/run-3ewzted9.wandb
+2023-02-17 07:22:39,004 INFO    SenderThread:2013 [sender.py:finish():1491] shutting down sender
+2023-02-17 07:22:39,004 INFO    SenderThread:2013 [file_pusher.py:finish():160] shutting down file pusher
+2023-02-17 07:22:39,005 INFO    SenderThread:2013 [file_pusher.py:join():165] waiting for file pusher

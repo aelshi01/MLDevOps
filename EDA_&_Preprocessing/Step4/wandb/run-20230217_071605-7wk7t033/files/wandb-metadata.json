@@ -1,0 +1,36 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-02-17T06:16:06.374075",
+    "startedAt": "2023-02-17T06:16:05.585366",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "/Users/adamelshimi/Desktop/Desktop - Adam\u2019s MacBook Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter",
+    "host": "Adams-Air.fritz.box",
+    "username": "adamelshimi",
+    "executable": "/Users/adamelshimi/opt/anaconda3/envs/udacity/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 71.95074844360352
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

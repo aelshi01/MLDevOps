@@ -1,0 +1,15 @@
+name:
+channels:
+	-conda-forges
+	- defaults
+dependacies:
+	- requests=2.24.0
+	- pip=20.3.3
+	- pip:
+	  - wandb==0.10.21
+
+
+
+
+
+

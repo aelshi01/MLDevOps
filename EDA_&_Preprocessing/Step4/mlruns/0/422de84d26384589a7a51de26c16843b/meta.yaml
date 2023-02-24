@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/422de84d26384589a7a51de26c16843b/artifacts
+end_time: 1676521996442
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 422de84d26384589a7a51de26c16843b
+run_name: clean-swan-538
+run_uuid: 422de84d26384589a7a51de26c16843b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676521993958
+status: 4
+tags: []
+user_id: adamelshimi

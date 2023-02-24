@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/8d4dc8d64bbb4e1c85d7bba2a60b2833/artifacts
+end_time: 1677126407718
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d4dc8d64bbb4e1c85d7bba2a60b2833
+run_name: able-pug-76
+run_uuid: 8d4dc8d64bbb4e1c85d7bba2a60b2833
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677126404191
+status: 4
+tags: []
+user_id: adamelshimi

@@ -1,0 +1,26 @@
+2023-02-10 09:17:20,792 INFO    MainThread:1559 [wandb_setup.py:_flush():68] Configure stats pid to 1559
+2023-02-10 09:17:20,792 INFO    MainThread:1559 [wandb_setup.py:_flush():68] Loading settings from /Users/adamelshimi/.config/wandb/settings
+2023-02-10 09:17:20,792 INFO    MainThread:1559 [wandb_setup.py:_flush():68] Loading settings from /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/settings
+2023-02-10 09:17:20,792 INFO    MainThread:1559 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-10 09:17:20,792 INFO    MainThread:1559 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'upload_artifact.py', 'program': 'upload_artifact.py'}
+2023-02-10 09:17:20,793 INFO    MainThread:1559 [wandb_init.py:_log_setup():478] Logging user logs to /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_091720-efge0pel/logs/debug.log
+2023-02-10 09:17:20,793 INFO    MainThread:1559 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_091720-efge0pel/logs/debug-internal.log
+2023-02-10 09:17:20,793 INFO    MainThread:1559 [wandb_init.py:init():518] calling init triggers
+2023-02-10 09:17:20,793 INFO    MainThread:1559 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-10 09:17:20,793 INFO    MainThread:1559 [wandb_init.py:init():571] starting backend
+2023-02-10 09:17:20,793 INFO    MainThread:1559 [wandb_init.py:init():575] setting up manager
+2023-02-10 09:17:20,800 INFO    MainThread:1559 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-10 09:17:20,802 INFO    MainThread:1559 [wandb_init.py:init():582] backend started and connected
+2023-02-10 09:17:20,805 INFO    MainThread:1559 [wandb_init.py:init():670] updated telemetry
+2023-02-10 09:17:20,806 INFO    MainThread:1559 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-10 09:17:21,324 INFO    MainThread:1559 [wandb_run.py:_on_init():2121] communicating current version
+2023-02-10 09:17:21,457 INFO    MainThread:1559 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-02-10 09:17:21,457 INFO    MainThread:1559 [wandb_init.py:init():758] starting run threads in backend
+2023-02-10 09:17:24,148 INFO    MainThread:1559 [wandb_run.py:_console_start():2101] atexit reg
+2023-02-10 09:17:24,148 INFO    MainThread:1559 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-02-10 09:17:24,148 INFO    MainThread:1559 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-02-10 09:17:24,148 INFO    MainThread:1559 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-02-10 09:17:24,148 INFO    MainThread:1559 [wandb_init.py:init():798] run started, returning control to user process
+2023-02-10 09:17:31,176 WARNING MsgRouterThr:1559 [router.py:message_loop():77] message_loop has been closed

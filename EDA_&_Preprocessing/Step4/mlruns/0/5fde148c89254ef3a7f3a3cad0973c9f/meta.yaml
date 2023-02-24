@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/5fde148c89254ef3a7f3a3cad0973c9f/artifacts
+end_time: 1676522366138
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5fde148c89254ef3a7f3a3cad0973c9f
+run_name: nervous-foal-778
+run_uuid: 5fde148c89254ef3a7f3a3cad0973c9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676522363488
+status: 4
+tags: []
+user_id: adamelshimi

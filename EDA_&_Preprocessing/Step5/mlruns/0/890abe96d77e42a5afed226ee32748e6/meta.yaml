@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/890abe96d77e42a5afed226ee32748e6/artifacts
+end_time: 1677128531844
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 890abe96d77e42a5afed226ee32748e6
+run_name: nimble-cod-127
+run_uuid: 890abe96d77e42a5afed226ee32748e6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677128529798
+status: 4
+tags: []
+user_id: adamelshimi

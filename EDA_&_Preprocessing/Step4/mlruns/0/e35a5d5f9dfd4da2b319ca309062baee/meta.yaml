@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/e35a5d5f9dfd4da2b319ca309062baee/artifacts
+end_time: 1676562385486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e35a5d5f9dfd4da2b319ca309062baee
+run_name: masked-newt-340
+run_uuid: e35a5d5f9dfd4da2b319ca309062baee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676522720104
+status: 4
+tags: []
+user_id: adamelshimi

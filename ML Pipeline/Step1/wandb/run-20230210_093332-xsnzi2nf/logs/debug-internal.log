@@ -1,0 +1,174 @@
+2023-02-10 09:33:32,951 INFO    StreamThr :1669 [internal.py:wandb_internal():87] W&B internal server running at pid: 1669, started at: 2023-02-10 09:33:32.950557
+2023-02-10 09:33:32,952 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: status
+2023-02-10 09:33:32,953 INFO    WriterThread:1669 [datastore.py:open_for_write():85] open: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/run-xsnzi2nf.wandb
+2023-02-10 09:33:32,955 DEBUG   SenderThread:1669 [sender.py:send():334] send: header
+2023-02-10 09:33:32,955 DEBUG   SenderThread:1669 [sender.py:send():334] send: run
+2023-02-10 09:33:33,779 INFO    SenderThread:1669 [dir_watcher.py:__init__():216] watching files in: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files
+2023-02-10 09:33:33,779 INFO    SenderThread:1669 [sender.py:_start_run_threads():1065] run started: xsnzi2nf with start time 1676018012.949107
+2023-02-10 09:33:33,779 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: summary_record
+2023-02-10 09:33:33,780 INFO    SenderThread:1669 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-10 09:33:33,782 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: check_version
+2023-02-10 09:33:33,782 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: check_version
+2023-02-10 09:33:33,918 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: run_start
+2023-02-10 09:33:33,930 DEBUG   HandlerThread:1669 [system_info.py:__init__():31] System info init
+2023-02-10 09:33:33,930 DEBUG   HandlerThread:1669 [system_info.py:__init__():46] System info init done
+2023-02-10 09:33:33,931 INFO    HandlerThread:1669 [system_monitor.py:start():151] Starting system monitor
+2023-02-10 09:33:33,931 INFO    SystemMonitor:1669 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-10 09:33:33,931 INFO    HandlerThread:1669 [system_monitor.py:probe():172] Collecting system info
+2023-02-10 09:33:33,932 INFO    SystemMonitor:1669 [interfaces.py:start():168] Started cpu
+2023-02-10 09:33:33,932 DEBUG   HandlerThread:1669 [system_info.py:probe():195] Probing system
+2023-02-10 09:33:33,932 INFO    SystemMonitor:1669 [interfaces.py:start():168] Started disk
+2023-02-10 09:33:33,932 INFO    SystemMonitor:1669 [interfaces.py:start():168] Started memory
+2023-02-10 09:33:33,937 INFO    SystemMonitor:1669 [interfaces.py:start():168] Started network
+2023-02-10 09:33:33,942 DEBUG   HandlerThread:1669 [git.py:repo():40] git repository is invalid
+2023-02-10 09:33:33,942 DEBUG   HandlerThread:1669 [system_info.py:probe():241] Probing system done
+2023-02-10 09:33:33,943 DEBUG   HandlerThread:1669 [system_monitor.py:probe():181] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.16', 'heartbeatAt': '2023-02-10T08:33:33.932456', 'startedAt': '2023-02-10T08:33:32.936086', 'docker': None, 'cuda': None, 'args': ('--artifact_name', 'exercise_1/zen_txt_file:v1'), 'state': 'running', 'program': 'use_artifact.py', 'codePath': 'use_artifact.py', 'host': 'Adams-Air.fritz.box', 'username': 'adamelshimi', 'executable': '/Users/adamelshimi/opt/anaconda3/envs/udacity/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 228.27386474609375, 'used': 75.91104888916016}, 'memory': {'total': 8.0}}
+2023-02-10 09:33:33,943 INFO    HandlerThread:1669 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-10 09:33:33,943 INFO    HandlerThread:1669 [system_monitor.py:probe():185] Publishing system info
+2023-02-10 09:33:33,943 DEBUG   HandlerThread:1669 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-10 09:33:33,943 DEBUG   HandlerThread:1669 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-10 09:33:33,943 DEBUG   HandlerThread:1669 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-10 09:33:34,786 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/conda-environment.yaml
+2023-02-10 09:33:34,787 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/requirements.txt
+2023-02-10 09:33:34,787 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/wandb-summary.json
+2023-02-10 09:33:36,538 DEBUG   HandlerThread:1669 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-10 09:33:36,538 INFO    HandlerThread:1669 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-10 09:33:36,541 DEBUG   SenderThread:1669 [sender.py:send():334] send: files
+2023-02-10 09:33:36,541 INFO    SenderThread:1669 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-02-10 09:33:36,544 DEBUG   SenderThread:1669 [sender.py:send():334] send: telemetry
+2023-02-10 09:33:36,544 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-10 09:33:36,545 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: stop_status
+2023-02-10 09:33:36,792 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/conda-environment.yaml
+2023-02-10 09:33:36,793 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/wandb-metadata.json
+2023-02-10 09:33:36,793 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/output.log
+2023-02-10 09:33:37,174 INFO    Thread-16 :1669 [upload_job.py:push():143] Uploaded file /var/folders/5m/dzm1x6y5491b1zvjdds3hs_00000gn/T/tmpmuak4326wandb/zdo7kjzs-wandb-metadata.json
+2023-02-10 09:33:37,259 DEBUG   SenderThread:1669 [sender.py:send():334] send: use_artifact
+2023-02-10 09:33:37,923 DEBUG   SenderThread:1669 [sender.py:send():334] send: exit
+2023-02-10 09:33:37,923 INFO    SenderThread:1669 [sender.py:send_exit():557] handling exit code: 0
+2023-02-10 09:33:37,923 INFO    SenderThread:1669 [sender.py:send_exit():559] handling runtime: 4
+2023-02-10 09:33:37,924 INFO    SenderThread:1669 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-10 09:33:37,924 INFO    SenderThread:1669 [sender.py:send_exit():565] send defer
+2023-02-10 09:33:37,924 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,925 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-10 09:33:37,925 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,925 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-02-10 09:33:37,925 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 1
+2023-02-10 09:33:37,925 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,925 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-10 09:33:37,926 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,926 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-02-10 09:33:37,926 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 2
+2023-02-10 09:33:37,927 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,927 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-10 09:33:37,927 INFO    HandlerThread:1669 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-10 09:33:37,942 DEBUG   SystemMonitor:1669 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-10 09:33:37,942 DEBUG   SystemMonitor:1669 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-10 09:33:37,942 DEBUG   SystemMonitor:1669 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-10 09:33:37,943 INFO    HandlerThread:1669 [interfaces.py:finish():175] Joined cpu
+2023-02-10 09:33:37,944 INFO    HandlerThread:1669 [interfaces.py:finish():175] Joined disk
+2023-02-10 09:33:37,944 INFO    HandlerThread:1669 [interfaces.py:finish():175] Joined memory
+2023-02-10 09:33:37,944 INFO    HandlerThread:1669 [interfaces.py:finish():175] Joined network
+2023-02-10 09:33:37,944 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,944 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-02-10 09:33:37,944 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 3
+2023-02-10 09:33:37,944 DEBUG   SenderThread:1669 [sender.py:send():334] send: stats
+2023-02-10 09:33:37,945 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,945 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-10 09:33:37,945 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,945 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-02-10 09:33:37,945 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 4
+2023-02-10 09:33:37,945 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,945 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-10 09:33:37,946 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,946 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-02-10 09:33:37,946 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 5
+2023-02-10 09:33:37,946 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,946 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-10 09:33:37,946 DEBUG   SenderThread:1669 [sender.py:send():334] send: summary
+2023-02-10 09:33:37,947 INFO    SenderThread:1669 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-10 09:33:37,947 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,947 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-02-10 09:33:37,947 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 6
+2023-02-10 09:33:37,947 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:37,947 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-10 09:33:37,947 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:37,947 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-02-10 09:33:37,952 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: status_report
+2023-02-10 09:33:38,198 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 7
+2023-02-10 09:33:38,199 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:38,199 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-10 09:33:38,199 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:38,199 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-02-10 09:33:38,802 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/output.log
+2023-02-10 09:33:38,802 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/config.yaml
+2023-02-10 09:33:38,803 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/wandb-summary.json
+2023-02-10 09:33:38,928 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-10 09:33:39,935 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 8
+2023-02-10 09:33:39,935 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: poll_exit
+2023-02-10 09:33:39,935 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:39,935 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-10 09:33:39,936 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:39,936 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-02-10 09:33:39,936 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 9
+2023-02-10 09:33:39,936 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:39,936 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-10 09:33:39,937 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:39,937 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-02-10 09:33:39,937 INFO    SenderThread:1669 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-10 09:33:40,814 INFO    Thread-13 :1669 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/output.log
+2023-02-10 09:33:40,815 INFO    SenderThread:1669 [dir_watcher.py:finish():392] scan: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files
+2023-02-10 09:33:40,815 INFO    SenderThread:1669 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/requirements.txt requirements.txt
+2023-02-10 09:33:40,816 INFO    SenderThread:1669 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/output.log output.log
+2023-02-10 09:33:40,817 INFO    SenderThread:1669 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/config.yaml config.yaml
+2023-02-10 09:33:40,820 INFO    SenderThread:1669 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/wandb-summary.json wandb-summary.json
+2023-02-10 09:33:40,823 INFO    SenderThread:1669 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/conda-environment.yaml conda-environment.yaml
+2023-02-10 09:33:40,823 INFO    SenderThread:1669 [dir_watcher.py:finish():406] scan save: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/wandb-metadata.json wandb-metadata.json
+2023-02-10 09:33:40,824 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 10
+2023-02-10 09:33:40,826 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:40,826 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-10 09:33:40,829 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:40,831 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-02-10 09:33:40,831 INFO    SenderThread:1669 [file_pusher.py:finish():160] shutting down file pusher
+2023-02-10 09:33:41,758 INFO    Thread-19 :1669 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/config.yaml
+2023-02-10 09:33:41,759 INFO    Thread-20 :1669 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/wandb-summary.json
+2023-02-10 09:33:41,761 INFO    Thread-18 :1669 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/output.log
+2023-02-10 09:33:41,761 INFO    Thread-21 :1669 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/conda-environment.yaml
+2023-02-10 09:33:41,762 INFO    Thread-17 :1669 [upload_job.py:push():143] Uploaded file /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/files/requirements.txt
+2023-02-10 09:33:41,968 INFO    Thread-12 :1669 [sender.py:transition_state():585] send defer: 11
+2023-02-10 09:33:41,969 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:41,969 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-10 09:33:41,970 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:41,970 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-02-10 09:33:41,970 INFO    SenderThread:1669 [file_pusher.py:join():165] waiting for file pusher
+2023-02-10 09:33:41,970 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 12
+2023-02-10 09:33:41,970 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:41,971 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-10 09:33:41,971 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:41,971 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-02-10 09:33:42,147 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 13
+2023-02-10 09:33:42,148 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:42,148 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-10 09:33:42,148 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:42,148 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-02-10 09:33:42,149 INFO    SenderThread:1669 [sender.py:transition_state():585] send defer: 14
+2023-02-10 09:33:42,150 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: defer
+2023-02-10 09:33:42,150 DEBUG   SenderThread:1669 [sender.py:send():334] send: final
+2023-02-10 09:33:42,150 INFO    HandlerThread:1669 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-10 09:33:42,150 DEBUG   SenderThread:1669 [sender.py:send():334] send: footer
+2023-02-10 09:33:42,150 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: defer
+2023-02-10 09:33:42,150 INFO    SenderThread:1669 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-02-10 09:33:42,151 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-10 09:33:42,151 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: poll_exit
+2023-02-10 09:33:42,152 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: server_info
+2023-02-10 09:33:42,152 DEBUG   SenderThread:1669 [sender.py:send_request():361] send_request: server_info
+2023-02-10 09:33:42,154 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-10 09:33:42,154 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-10 09:33:42,594 INFO    MainThread:1669 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-02-10 09:33:42,594 INFO    MainThread:1669 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-02-10 09:33:42,594 INFO    MainThread:1669 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-02-10 09:33:42,595 DEBUG   HandlerThread:1669 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-10 09:33:42,595 INFO    HandlerThread:1669 [handler.py:finish():841] shutting down handler
+2023-02-10 09:33:43,157 INFO    WriterThread:1669 [datastore.py:close():299] close: /Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230210_093332-xsnzi2nf/run-xsnzi2nf.wandb
+2023-02-10 09:33:43,599 INFO    SenderThread:1669 [sender.py:finish():1491] shutting down sender
+2023-02-10 09:33:43,599 INFO    SenderThread:1669 [file_pusher.py:finish():160] shutting down file pusher
+2023-02-10 09:33:43,600 INFO    SenderThread:1669 [file_pusher.py:join():165] waiting for file pusher

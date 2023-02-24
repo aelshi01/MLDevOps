@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/ee2e643b3cc34fb7a82ea43f76f04ffe/artifacts
+end_time: 1677041414805
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee2e643b3cc34fb7a82ea43f76f04ffe
+run_name: inquisitive-seal-164
+run_uuid: ee2e643b3cc34fb7a82ea43f76f04ffe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677041412531
+status: 4
+tags: []
+user_id: adamelshimi

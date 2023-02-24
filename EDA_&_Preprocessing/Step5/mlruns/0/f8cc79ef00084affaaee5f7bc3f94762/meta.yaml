@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/f8cc79ef00084affaaee5f7bc3f94762/artifacts
+end_time: 1677128595896
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8cc79ef00084affaaee5f7bc3f94762
+run_name: gregarious-worm-174
+run_uuid: f8cc79ef00084affaaee5f7bc3f94762
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677128593893
+status: 4
+tags: []
+user_id: adamelshimi

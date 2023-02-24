@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Desktop%20-%20Adam%E2%80%99s%20MacBook%20Air/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/edc5aa046acd42c39e6a513ea433404e/artifacts
+end_time: 1677041733049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edc5aa046acd42c39e6a513ea433404e
+run_name: judicious-hawk-755
+run_uuid: edc5aa046acd42c39e6a513ea433404e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677041731043
+status: 4
+tags: []
+user_id: adamelshimi

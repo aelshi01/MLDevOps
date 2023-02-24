@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/adamelshimi/Desktop/Udacity/MLDevOps/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/59a5c3e53a7d4c65831165a7dd961316/artifacts
+end_time: 1676521804419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59a5c3e53a7d4c65831165a7dd961316
+run_name: bedecked-mare-953
+run_uuid: 59a5c3e53a7d4c65831165a7dd961316
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676521801651
+status: 4
+tags: []
+user_id: adamelshimi
